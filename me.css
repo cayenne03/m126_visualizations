@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+nav#navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1927;
+    padding: 1rem;
+}
+
+nav#navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.content {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.intro { background-color: #D8B453; }
+.work-edu { background-color: #336699; }
+.mypic { background-color: #4AAFA3; }
+.about-class { background-color: #ED553B; }
+.contact { background-color: #173F5F; }
+
+.hiddenInfo {
+    display: none;
+    text-align: center;
+}
+
+.content.active .hiddenInfo {
+    display: block;
+}
+
+
+.hiddenInfo ul {
+    list-style-type: "-";
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+.content.active > p {
+    display: none;
+}
+
+.my-picture {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #f8d7da;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.content .hiddenInfo a {
+    color: white;
+    text-decoration: none;
+}
+
+.content .hiddenInfo a:hover {
+    color: #0077B5;
+}
