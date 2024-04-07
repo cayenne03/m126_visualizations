@@ -1,0 +1,27 @@
+Name: Eleni Tsiligianni
+A.M.: 7115182300027
+
+
+The live website of this project is hosted in GitHub pages, under my account, in this link: https://cayenne03.github.io/m126_visualizations/me.html
+
+In this 1st homework we did the following:
+
+
+1) For the 1st page:
+
+- The divs are click-able, so once clicked some text appears.
+
+
+2) For the 2nd page:
+
+- Clicking on the basketball court changes the color, random colors are picked.
+- Clicking on the ball it stops its motion, and if clicked again it starts moving on the y-axis again.
+- Clicking on the player's card flips the card showing the player's team image.
+- Changing the dropdown selection changes the top-5 data.
+
+
+3) For the 3rd page:
+
+- The shapes start moving from left to right, once clicked they stop, if clicked again the direction of the motion is reversed, if clicked again it stops again.
+- Once each shape disappears from the screen it re-appears from the other side.
+
